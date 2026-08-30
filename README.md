@@ -1,7 +1,7 @@
 # webdev-touchstone
 This is a repository for my touchstone assignment
 
-Client: North Start Bakery
+Client: North Star Bakery
 
 Client Type: Products focused business
 Purpose: Promote a neighborhood bakery and encourage pre orders and inquiries.
