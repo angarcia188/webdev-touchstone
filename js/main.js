@@ -43,7 +43,12 @@ function renderFavorites(favorites) {
 
 function loadFavorites() {
     const favorites = localStorage.getItem(favoriteStorageKey);
-    return JSON.parse(favorites);
+    if (!favorites) {
+        return [];
+    }
+    else {
+        return JSON.parse(favorites);
+    }
 }
 
 function saveFavorites(favorites) {
